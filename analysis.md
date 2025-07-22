@@ -21,14 +21,27 @@ This analysis evaluates Ethereum wallet credit scores based on historical transa
 ##  Distribution of Credit Scores
 | Range           | Wallet Count |
 |-----------------|--------------|
-| 0.0             | 2997        |
-| 0.1 - 2.5       | more than >800         |
-| 2.6 - 5.0       | more than >150           |
-| 5.1 - 10.0      | less than >150           |
-| 10.1 and above  | less than <20           |
+0-1 |	3302	 
+1-5 |	112	 
+5-10|	25 
+10-20|	23	 
+20-50	|13	 
+50-100|	10	 
 
 > **Note**: A significant portion of wallets received a score of **0.0**, indicating limited or no meaningful activity.
 
+
+---
+
+##  Distribution Visualization
+
+### Histogram of Wallet Credit Scores
+
+The following chart shows how credit scores are distributed across wallets:
+
+![Credit Score Histogram](./credit_score_distribution.png)
+
+---
 ---
 
 ## Observations
